@@ -1,0 +1,4 @@
+*.pdf
+.idea/.gitignore
+*.docx
+log.txt
