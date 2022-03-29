@@ -60,3 +60,7 @@ We need to make sure that these numbers are placed on the board following the ru
 Each time a value is removed, a sudoku solving algorithm is applied to see if the grid can still be solved and count the number of solutions it leads to.
 3) If the resulting grid has only one solution(unique), we can proceed with the removal. Otherwise, we will have to put back into the grid the value we took away and choose a new cell to remove from.
 4) At the end of the algorithm we get a sudoku board with an existing unique solution.
+
+## License
+
+Licensed under the [MIT License](https://github.com/MartinUzunov/sudoku/blob/master/LICENSE.md).
