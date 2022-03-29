@@ -33,14 +33,14 @@ On the right, you can see the elapsed time since the start of the game.
 - Sudoku board (on the left of the window) - movement on the board is done by clicking the mouse on or using the arrows on the Numpad. Entering a number is done with the numbers from 1 to 9 (Numpad numbers also work). Deleting a digit is done with DELETE or BACKSPACE.
 Numbers in black cannot be changed, as they are part of the required numbers needed to have a board solution.
 - Control Panel (to the right of the window) - At the top of the control panel can be seen a button to start a new game. When the button is pressed, a menu comes up from which the difficulty of the new game can be selected. Below the new game button there are 5 buttons:
--- Notes button - when the button is pressed, the notes mode is switched. At the top right of the button, there is a colored circle that indicates the current mode(green - notes are on, red - notes are off).
--- Undo button - when the button is pressed, the board returns to the previous position (1 move back).
--- Redo button - when the button is pressed, the undo action is applied again.
--- Erase button - when the button is pressed, the number in the currently selected cell is erased.
--- Solve button - when the button is pressed, a request is sent to the server to solve the current board and once the server responds to the request, all cells are filled with the correct numbers and the game ends.
+    + Notes button - when the button is pressed, the notes mode is switched. At the top right of the button, there is a colored circle that indicates the current mode(green - notes are on, red - notes are off).
+    + Undo button - when the button is pressed, the board returns to the previous position (1 move back).
+    + Redo button - when the button is pressed, the undo action is applied again.
+    + Erase button - when the button is pressed, the number in the currently selected cell is erased.
+    + Solve button - when the button is pressed, a request is sent to the server to solve the current board and once the server responds to the request, all cells are filled with the correct numbers and the game ends.
+
 Below the 5 buttons, we have the Numpad which allows entering numbers using the mouse.
-If all the cells on the board are filled in correctly, a window appears indicating that the game has been completed successfully.
-<br></br>
+If all the cells on the board are filled in correctly, a window appears indicating that the game has been completed successfully.<br></br>
 ## Description of the program code
 The program contains a separate Jar file (and project) that contains Graphical user interface elements(JavaFX). The functionality of the GUI is explained in detail in the user manual.
 The algorithm used to solve sudoku:
