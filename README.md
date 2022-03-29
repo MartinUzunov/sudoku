@@ -43,7 +43,7 @@ Below the 5 buttons, we have the Numpad which allows entering numbers using the 
 If all the cells on the board are filled in correctly, a window appears indicating that the game has been completed successfully.<br></br>
 ## Description of the program code
 The program contains a separate Jar file (and project) that contains Graphical user interface elements(JavaFX). The functionality of the GUI is explained in detail in the user manual.
-The algorithm used to solve sudoku:
+### The algorithm used to solve sudoku:
 1) Go around the board cell by cell.
 2) In each cell that is not empty, we check if we can place any
 number between 1 and 9.
@@ -51,7 +51,8 @@ number between 1 and 9.
 is called recursively with the new board.
 4) The function terminates when the board contains no empty cells or when there is a
 cell in which no number can be inserted.
-The algorithm used to generate sudoku:
+
+### The algorithm used to generate sudoku:
 
 1) Generate a filled board.
 We need to make sure that these numbers are placed on the board following the rules of Sudoku. For this purpose, we use a backtracking algorithm to solve a sudoku, which we apply to an empty grid. We add a random element to this solution algorithm to make sure that a new grid is generated each time we run it.
